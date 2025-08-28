@@ -56,8 +56,7 @@ chmod +x create_user.sh demo_create_user.sh delete_user.sh demo_delete_user.sh \
     ```
   5. (Optional) Change password interactively:  
     `su - devopsdemo`
-  6. One-button demo:  
-    `./demo_create_user.sh`
+
 
   ---
 
@@ -70,8 +69,6 @@ chmod +x create_user.sh demo_create_user.sh delete_user.sh demo_delete_user.sh \
     `printf "y\n" | ./delete_user.sh devopsdemo`
   3. Attempt to switch to deleted user (should fail):  
     `sudo su - devopsdemo -c 'whoami' || echo "Confirmed: devopsdemo is deleted"`
-  4. One-button demo:  
-    `./demo_delete_user.sh`
 
   ---
 
