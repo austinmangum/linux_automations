@@ -3,6 +3,7 @@ System Admin Scripting – Run Book (A–G)
 Environment: Typical Linux, bash, sudo available.
 Scripts Folder: ~/scripts (unless noted).
 Exec Bits: Ensure each script is executable.
+windows users: wsl --unregister Ubuntu (clear out current image), wsl --install -d Ubuntu (install fresh image)
 
 Quick Setup (once)
 mkdir -p ~/scripts && cd ~/scripts
