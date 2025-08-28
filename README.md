@@ -29,8 +29,8 @@ chmod +x create_user.sh demo_create_user.sh delete_user.sh demo_delete_user.sh \
 
 | Section | Requirement Summary | Script(s) |
 |---------|---------------------|-----------|
-| A | Create user, set password, force change, show `/etc/passwd`; demo no-args/with-args/switch | `create_user.sh`, `demo_create_user.sh` |
-| B | Delete user (confirm, remove home), show `/etc/passwd`; demo no-args/with-args/failed su | `delete_user.sh`, `demo_delete_user.sh` |
+| A | Create user, set password, force change, show `/etc/passwd`; demo no-args/with-args/switch | `create_user.sh`|
+| B | Delete user (confirm, remove home), show `/etc/passwd`; demo no-args/with-args/failed su | `delete_user.sh` |
 | C | Customize prompt $, aliases, PATH add `~/bin`, run scripts from outside bin | (shell commands below) |
 | D | Install vim if missing; update all packages to `update.log` | `install_vim.sh`, `update_all.sh` |
 | E | Network checks: ping google.com, ping 8.8.8.8, nslookup example.com; flowchart | `check_google.sh`, `check_dns_ip.sh`, `check_nslookup.sh` |
