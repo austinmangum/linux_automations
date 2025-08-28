@@ -1,17 +1,4 @@
 #!/usr/bin/env bash
-# create_user.sh
-# REQUIREMENTS COVERED:
-# 1) Takes username arg – errors if missing
-# 2) Ensures group "dev_group" exists
-# 3) Adds user and assigns password (non-interactively)
-# 4) Displays /etc/passwd to verify
-# 5) Demo file provided separately (demo_create_user.sh) to show requested scenarios
-#
-# ASSUMPTIONS:
-# - Run as root (or via sudo) so useradd/chpasswd succeed without prompting.
-# - Default password policy allows setting plain text via chpasswd.
-# - We'll set an initial temporary password = "<username>123!" and force a change at first login.
-
 set -euo pipefail
 
 if [[ $# -lt 1 ]]; then

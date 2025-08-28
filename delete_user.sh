@@ -1,12 +1,4 @@
 #!/usr/bin/env bash
-# delete_user.sh
-# REQUIREMENTS COVERED:
-# 1) Takes username arg – errors if missing
-# 2) Asks for confirmation
-# 3) Deletes user and home directory
-# 4) Displays /etc/passwd to verify
-# 5) Demo file provided separately (demo_delete_user.sh)
-
 set -euo pipefail
 
 if [[ $# -lt 1 ]]; then
