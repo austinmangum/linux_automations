@@ -7,7 +7,7 @@ Exec Bits: Ensure each script is executable.
 Quick Setup (once)
 mkdir -p ~/scripts && cd ~/scripts
 
-# Place all scripts here (from ChatGPT output), then:
+# Place all scripts here, then:
 chmod +x create_user.sh demo_create_user.sh delete_user.sh demo_delete_user.sh \
            install_vim.sh update_all.sh \
            check_google.sh check_dns_ip.sh check_nslookup.sh \
