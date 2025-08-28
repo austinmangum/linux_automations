@@ -49,7 +49,7 @@ chmod +x create_user.sh demo_create_user.sh delete_user.sh demo_delete_user.sh \
   2. Run with valid username:  
     `./create_user.sh devopsdemo`
   3. Verify entry in `/etc/passwd` (script prints automatically)
-  4. Switch to new user & show password policy:  
+  4. Switch to new user & show password policy:  temp password is <username>123!
     ```
     sudo su - devopsdemo -c 'echo "User: $(whoami)"; id'
     sudo chage -l devopsdemo | sed -n '1,6p'
